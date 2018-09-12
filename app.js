@@ -21,6 +21,10 @@ cron.schedule('* 0-23 * * *', async () => { // check each hour
         }
     }
 })
+const bot = new Telegraf(process.env.698046188:AAFod5EC-_r7FLcm2o3VmbhpVenKxHfydgw)
+
+bot.hears('эрик', (ctx) => ctx.reply('эрик пидор'))
+
 bot.start(ctx => {
     util.log(ctx.from.id)
 })
