@@ -1,0 +1,16 @@
+{
+  "version": "0.0.1",
+  "description": "Telegram bot to restrict bots-like telegram users to send ads in public chats.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "forever": "^0.15.3",
+    "mongoose": "^5.2.14",
+    "nedb": "^1.8.0",
+    "node-cron": "^2.0.1",
+    "telegraf": "^3.23.0"
+  },
+  "license": "ISC"
+}
