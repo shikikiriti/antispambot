@@ -7,7 +7,7 @@ const botConfig = require('./bot.config.json')
 const database = require('./database')
 // const onlyAdmin = require('./middlewares/only-admin')
 // const logger = require('./middlewares/logger')
-const bot = new Telegraf(botConfig.token)
+const bot = new Telegraf(698046188:AAFod5EC-_r7FLcm2o3VmbhpVenKxHfydgw)
 const telegram = new Telegram(botConfig.token)
 
 cron.schedule('* 0-23 * * *', async () => { // check each hour
@@ -21,7 +21,6 @@ cron.schedule('* 0-23 * * *', async () => { // check each hour
         }
     }
 })
-const bot = new Telegraf(process.env.698046188:AAFod5EC-_r7FLcm2o3VmbhpVenKxHfydgw)
 
 bot.hears('эрик', (ctx) => ctx.reply('эрик пидор'))
 
